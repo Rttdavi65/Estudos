@@ -1,10 +1,6 @@
 from random import choice
 from time import sleep
 
-print('-=-' *10)
-titulo = 'JOKENPÔ!'
-print(f'{titulo :^26}')
-
 def jokenpo():
     escolha = ['pedra', 'papel', 'tesoura']
     jogador = str(input('Escolha uma opção:\nPedra\nPapel\nTesoura\n '.strip().title()))
