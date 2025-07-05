@@ -1,0 +1,7 @@
+tabela = ('caneta', 1.50,'lapis', 0.50,'Caderno', 20.0,'Mouse', 8.75)
+print('-' * 20,'Listagem de produtos','-' * 20)
+print(tabela[0],'...............R$',tabela[1])
+print(tabela[2],'...............R$',tabela[3])
+print(tabela[4],'...............R$',tabela[5])
+print(tabela[6],'...............R$',tabela[7])
+print('-' * 20, 'FIM', '-' * 20)
