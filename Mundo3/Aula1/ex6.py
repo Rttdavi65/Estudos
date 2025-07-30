@@ -1,6 +1,7 @@
-palavras = ('Arroz','Pato','Objeto','Sapato')
+palavras = ('Leticia','Davi','Samuel','Matheus','Cida','Dick',
+            'Papai noel','Caneca')
 for p in palavras:
-    print(f'Na palavra {p} temos ')
+    print(f'\nNa palavra {p.upper()} temos: ', end=' ')
     for letra in p:
         if letra.lower() in 'aeiou':
-            print(letra)
+            print(letra, end='')
